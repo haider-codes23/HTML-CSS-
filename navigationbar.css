@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  
+  
+}
+
+nav {
+  background: black;
+  padding: 0.7rem;
+
+
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  
+}
+nav li {
+  margin: 0.8rem;
+  text-decoration: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}

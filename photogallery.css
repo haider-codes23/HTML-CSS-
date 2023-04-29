@@ -1,0 +1,42 @@
+.gallery {
+  display: grid;
+  grid-gap: 10px;
+
+}
+.gallery img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
+  
+  
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+            "photo-1 photo-2 photo-2"
+            "photo-3 photo-2 photo-2"
+            "photo-4 photo-5 photo-6"
+            "photo-7 photo-8 photo-9";
+  }
+  
+  .photo-1 {grid-area: photo-1;}
+  .photo-2 {grid-area: photo-2;}
+  .photo-3 {grid-area: photo-3;}
+  .photo-4 {grid-area: photo-4;}
+  .photo-5 {grid-area: photo-5;}
+  .photo-6 {grid-area: photo-6;}
+  .photo-7 {grid-area: photo-7;}
+  .photo-8 {grid-area: photo-8;}
+  .photo-9 {grid-area: photo-9;}
+}

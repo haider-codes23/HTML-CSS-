@@ -1,0 +1,44 @@
+.container-7 {
+  margin: 1rem;
+  border:  3px solid grey              ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  height: 90vh;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.container-3 {
+  margin: 1rem;
+  border: 3px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  height: 90vh;
+}
+
+.box {
+  flex-basis: 10rem;
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  margin: 1rem;
+}
+
+.box-one {
+  /*flex-grow: 2;*/
+  /*flex-shrink: 0;*/
+}
+
+.box-two {
+
+}
+
+.box-three {
+
+}

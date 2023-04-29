@@ -1,0 +1,13 @@
+article:first-child {
+  font-size: 150%;
+  font-style: italic;
+}
+
+article :last-child {
+
+  font-weight: bold;
+}
+
+ul li:nth-child(odd) {
+  color: deepskyblue;
+}

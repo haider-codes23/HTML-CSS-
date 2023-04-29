@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .avatar {
+      width: 5rem;
+      height: 5rem;
+      background-color: blueviolet;
+      float: left;
+      margin-right: 1rem;
+    }
+
+    .ad {
+      width: 5rem;
+      height: 7rem;
+      background-color: aqua;
+      margin-top: 1rem;
+      float: left;
+      margin-right: 1rem;
+      border: 5px solid grey;
+    }
+
+    .tweet {
+      border: 2px solid brown;
+    }
+
+    .tweet::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  </style>
+  <title>Practice Page</title>
+</head>
+<body>
+  <article class="tweet">
+    <div class="avatar"></div>
+    <p>Lorem ipsum dolor sit amet.</p>
+   
+  </article>
+  <div class="ad"></div>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis aperiam recusandae blanditiis est atque dolor, ipsa autem fugit modi! Officiis veritatis officia deleniti amet a, harum sunt minus corporis ad?</p>
+</body>
+</html>

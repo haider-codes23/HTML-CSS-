@@ -1,0 +1,19 @@
+/*
+p + p {
+  text-align: left;
+  text-indent: 1rem;
+  text-decoration: overline;
+  text-transform: capitalize;
+  white-space: nowrap;
+  border: 3px solid grey;
+  overflow: hidden;
+  
+}*/
+
+p {
+  width: 50ch;
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: 3px dotted grey;
+}
+

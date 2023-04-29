@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  /* 3 x 2 Grid*/
+  grid-template: 100px auto 100px / 30fr 70fr;
+  border: 3px solid lightgray;
+  
+ 
+  height: 100vh;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-template-areas: 
+    "header  header" 
+    "sidebar main" 
+    "sidebar  footer";
+  
+}
+
+.box {
+  background-color: rgb(89, 179, 164);
+  
+  
+}
+
+.box-one {
+  background-color: rgb(173, 119, 228);
+  grid-column: 1 / span 2;
+  grid-area: header;
+  
+  
+  
+  
+}
+
+.box-sidebar {
+  grid-area: sidebar;
+}
+
+.box-four {
+  grid
+}
